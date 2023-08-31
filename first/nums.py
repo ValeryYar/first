@@ -18,8 +18,8 @@ def oct(a, b):
     return a % b
 
 
-def fin(a, b):
-    return (plus(a, b) * oct(a, b))
+def fin(a, b, c):
+    return (plus(a, b) * oct(a, b) + c)
 
 
 if __name__ == '__main__':
@@ -28,4 +28,4 @@ if __name__ == '__main__':
     print(mult(3, 3))
     print(dev(100, 4))
     print(oct(15, 4))
-    print(100, 7)
+    print(100, 7, 25)
